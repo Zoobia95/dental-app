@@ -1,0 +1,766 @@
+.main-div {
+  background-color: #fbeecb;
+  height: 40rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.main-div-Extended {
+  background-color: white;
+}
+
+.elementToFadeIn {
+  animation: fadeIn 2s linear 1 forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.alignInMiddle {
+  margin-top: 15rem;
+  /* transition: all 1s; */
+}
+
+.arrowRightSVG {
+  fill: rgb(235, 74, 10);
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.arrowRightSVGExtended {
+  transform: rotate(90deg);
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.arrowRightSVGExtended2 {
+  transform: rotate(-3deg);
+  transition: all 1s;
+}
+
+.arrowRightSVGFinal {
+  margin-left: 9rem;
+  /* transition: all 1s; */
+}
+
+.arrowRightSVGFinal2 {
+  opacity: 0;
+}
+
+.whiteArrow {
+  opacity: 1;
+  fill: white;
+  margin-top: -42%;
+  margin-left: 44%;
+  transition-duration: 2s;
+  transition-property: transform;
+}
+
+.whiteArrowExtended {
+  transform: rotate(90deg);
+  transition-duration: 2s;
+  transition-property: transform;
+}
+
+.whiteArrowExtended2 {
+  transform: rotate(-3deg);
+  transition: all 1s;
+}
+
+.whiteArrowFinal {
+  margin-left: 75%;
+  /* transition: all 1s; */
+}
+
+.whiteArrowFinal2 {
+  opacity: 0;
+}
+
+.orangeArrow {
+  opacity: 1;
+  fill: rgb(235, 74, 10);
+  margin-top: 18%;
+  margin-left: 15%;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.orangeArrowExtended {
+  transform: rotate(90deg);
+}
+
+.paddingClass1 {
+  padding-left: 74%;
+  transition: all 1s;
+}
+
+.paddingClass1Extended {
+  margin-left: 75%;
+  transition: all 1s;
+}
+
+.paddingClass1Extended2 {
+  margin-top: 90%;
+}
+
+.pillClass1 {
+  background-color: rgb(235, 74, 10);
+  height: 4rem;
+  width: 100%;
+  margin-left: 15%;
+  transition: all 1s;
+}
+
+.pillClass1Extended {
+  width: 30%;
+  margin-left: 5rem;
+  transition: all 1s;
+}
+
+.pillClass1Extended2 {
+  margin-top: 22%;
+  height: 56%;
+  transition: all 1s;
+}
+
+.pillClass1Final {
+  margin-left: 70%;
+  /* transition: all 1s; */
+}
+
+.pillClass1Final2 {
+  opacity: 0;
+}
+
+.paddingClass2 {
+  position: relative;
+  top: 5%;
+  left: 20%;
+  transition: all 2s;
+}
+
+.paddingClass2Extended {
+  width: 50%;
+  overflow: hidden;
+}
+
+.pillClass2 {
+  background-color: rgb(255, 255, 255);
+  height: 4rem;
+  width: 100%;
+  margin-left: 42%;
+  margin-top: 1rem;
+  color: rgb(235, 74, 10);
+  opacity: 1;
+  transition: all 1s;
+}
+
+.pillClass2Extended {
+  width: 25%;
+  margin-left: 75%;
+  transition: all 1s;
+}
+
+.pillClass2Extended2 {
+  margin-top: -25%;
+  transition: all 1s;
+}
+
+.pillClass2Final {
+  margin-left: 59%;
+  /* transition: all 1s; */
+}
+
+.pillClass2Final2 {
+  opacity: 0;
+}
+
+.paddingClass3 {
+  position: relative;
+  top: 5%;
+  left: 14%;
+  transition: all 2s;
+}
+
+.paddingClass3Extended {
+  width: 50%;
+  overflow: hidden;
+}
+
+.circleClass1 {
+  background-color: rgb(235, 74, 10);
+  margin-top: 18%;
+  margin-left: 97%;
+  height: 4rem;
+  width: 68%;
+  transition: all 1s;
+}
+
+.circleClass1Extended {
+  margin-left: 0%;
+  transition: all 1s;
+}
+
+.circleClass1Extended2 {
+  margin-top: -65%;
+  transition: all 1s;
+}
+
+.circleClass1Final {
+  margin-left: -8rem;
+}
+
+.teethSVG {
+  fill: white;
+  margin-left: 22%;
+  margin-top: 18%;
+}
+
+.logoName {
+  vertical-align: inherit;
+  margin-left: 11.5rem;
+  color: rgb(235, 74, 10);
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 1s;
+  margin-top: 5%;
+}
+
+.logoNameExtended {
+  opacity: 1;
+  margin-top: 0%;
+}
+
+.logo {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.logoExtended {
+  opacity: 0;
+}
+
+.mainTextClass {
+  font-size: 10rem;
+  text-align: center;
+  margin-top: 35%;
+}
+
+.mainTextClass2 {
+  transition: all 1s;
+  margin-top: 18%;
+}
+
+.imageClass1 {
+  margin-top: -20%;
+  height: 24rem;
+  border-radius: 7%;
+  margin-left: 39%;
+  opacity: 0;
+  transform: rotate(-45deg);
+  transition: all 3s;
+}
+
+.imageClass1Extended {
+  margin-top: -27%;
+  opacity: 1;
+  transform: rotate(-25deg);
+}
+
+.roundedFirst {
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-top: -2%;
+  margin-left: 3%;
+  position: absolute;
+  opacity: 0;
+}
+
+.roundedFirst2 {
+  opacity: 1;
+}
+
+.imageIconFirst {
+  transform: rotate(-25deg);
+  margin-top: 13%;
+  margin-left: 23%;
+  opacity: 0;
+}
+
+.imageIconFirst2 {
+  opacity: 1;
+}
+
+.pillFirst {
+  background-color: white;
+  width: 12rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+  transform: rotate(-25deg);
+  margin-top: -5.04rem;
+  margin-left: 4.1rem;
+  opacity: 0;
+}
+
+.pillFirst2 {
+  opacity: 1;
+}
+
+.textFirst {
+  position: absolute;
+  transform: rotate(-25deg);
+  margin-left: 5.7rem;
+  margin-top: -1.7em;
+  opacity: 0;
+}
+
+.textFirst2 {
+  opacity: 1;
+}
+
+.imageClass2 {
+  margin-top: -20%;
+  height: 24rem;
+  border-radius: 7%;
+  margin-left: 39%;
+  opacity: 0;
+  transform: rotate(-45deg);
+  transition: all 3s;
+}
+
+.imageClass2Extended {
+  margin-top: -40%;
+  opacity: 1;
+  transform: rotate(-18deg);
+}
+
+.roundedSecond {
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-top: -5%;
+  margin-left: 2%;
+  position: absolute;
+  opacity: 0;
+}
+
+.roundedSecond2 {
+  opacity: 1;
+}
+
+.imageIconSecond {
+  transform: rotate(-25deg);
+  margin-top: 13%;
+  margin-left: 23%;
+  opacity: 0;
+}
+
+.imageIconSecond2 {
+  opacity: 1;
+}
+
+.pillSecond {
+  position: absolute;
+  background-color: white;
+  width: 12rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+  transform: rotate(-18deg);
+  margin-top: -7.04rem;
+  margin-left: 3.5rem;
+  opacity: 0;
+}
+
+.pillSecond2 {
+  opacity: 1;
+}
+
+.textSecond {
+  position: absolute;
+  transform: rotate(-18deg);
+  margin-left: 5.4rem;
+  margin-top: -6.7em;
+  opacity: 0;
+}
+
+.textSecond2 {
+  opacity: 1;
+}
+
+.imageClass3 {
+  margin-top: -20%;
+  height: 24rem;
+  border-radius: 7%;
+  margin-left: 40%;
+  opacity: 0;
+  transform: rotate(-45deg);
+  transition: all 3s;
+}
+
+.imageClass3Extended {
+  margin-top: -46%;
+  opacity: 1;
+  transform: rotate(-11deg);
+}
+
+.roundedThird {
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-top: -8%;
+  margin-left: 1%;
+  position: absolute;
+  opacity: 0;
+}
+
+.roundedThird2 {
+  opacity: 1;
+}
+
+.imageIconThird {
+  transform: rotate(-11deg);
+  margin-top: 13%;
+  margin-left: 23%;
+  opacity: 0;
+}
+
+.imageIconThird2 {
+  opacity: 1;
+}
+
+.pillThird {
+  position: absolute;
+  background-color: white;
+  width: 12rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+  transform: rotate(-11deg);
+  margin-top: -9.04rem;
+  margin-left: 2.9rem;
+  opacity: 0;
+}
+
+.pillThird2 {
+  opacity: 1;
+}
+
+.textThird {
+  position: absolute;
+  transform: rotate(-11deg);
+  margin-left: 6rem;
+  margin-top: -8.7em;
+  opacity: 0;
+}
+
+.textThird2 {
+  opacity: 1;
+}
+
+.imageClass4 {
+  margin-top: -20%;
+  height: 24rem;
+  border-radius: 7%;
+  margin-left: 40%;
+  opacity: 0;
+  transform: rotate(-45deg);
+  transition: all 3s;
+}
+
+.imageClass4Extended {
+  margin-top: -52%;
+  opacity: 1;
+  transform: rotate(-4deg);
+}
+
+.roundedFourth {
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-top: -10%;
+  margin-left: 0%;
+  position: absolute;
+  opacity: 0;
+}
+
+.roundedFourth2 {
+  opacity: 1;
+}
+
+.imageIconFourth {
+  transform: rotate(-4deg);
+  margin-top: 13%;
+  margin-left: 23%;
+  opacity: 0;
+}
+
+.imageIconFourth2 {
+  opacity: 1;
+}
+
+.pillFourth {
+  position: absolute;
+  background-color: white;
+  width: 12rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+  transform: rotate(-4deg);
+  margin-top: -10.04rem;
+  margin-left: 1.9rem;
+  opacity: 0;
+}
+
+.pillFourth2 {
+  opacity: 1;
+}
+
+.textFourth {
+  position: absolute;
+  transform: rotate(-4deg);
+  margin-left: 3rem;
+  margin-top: -9.7em;
+  opacity: 0;
+}
+
+.textFourth2 {
+  opacity: 1;
+}
+
+.menuButton {
+  border-radius: 20rem;
+  margin-top: 1rem;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.menuButtonExtended {
+  opacity: 1;
+}
+
+.circularMenu {
+  border: 1px solid black;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  margin-left: -0.6rem;
+  margin-top: 1rem;
+  transition: all 2s;
+  opacity: 0;
+}
+
+.circularMenuExtended {
+  opacity: 1;
+}
+
+.menuSVG {
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  transition: all 2s;
+  opacity: 0;
+}
+
+.menuSVGExtended {
+  opacity: 1;
+}
+
+.circleClass1Again {
+  margin-left: 16rem;
+  opacity: 0;
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: rgb(235, 74, 10);
+  margin-top: 18%;
+  transition: all 2s;
+}
+
+.circleClass1AgainExtended {
+  margin-left: 12rem;
+  opacity: 1;
+}
+
+.teethSVG2 {
+  fill: white;
+  margin-left: 0.35rem;
+  margin-top: 0.3rem;
+}
+
+.textLogo {
+  margin-top: 1.3rem;
+  margin-left: 4.5rem;
+  font-weight: 400;
+  width: 0%;
+  overflow: hidden;
+  transition: all 2s;
+  opacity: 0;
+}
+
+.textLogo2 {
+  width: 100%;
+  margin-left: 7.5rem;
+  opacity: 1;
+}
+
+.logInButton {
+  float: right;
+  margin-top: 1rem;
+  margin-right: -3rem;
+  border-radius: 3rem;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.SignUpButton {
+  float: right;
+  margin-top: 1rem;
+  margin-right: -1rem;
+  border-radius: 3rem;
+  color: white;
+  background-color: rgb(235, 74, 10);
+  border: 1px solid rgb(235, 74, 10);
+  opacity: 0;
+  transition: all 2s;
+}
+
+.logInButtonExtended {
+  opacity: 1;
+}
+
+.SignUpButtonExtended {
+  opacity: 1;
+}
+
+.div4 {
+  margin-top: 0rem;
+  transition: all 1s;
+}
+
+.div4Extended {
+  margin-top: -38rem;
+}
+
+.div3 {
+  margin-top: 0rem;
+  transition: all 1s;
+}
+
+.div3Extended {
+  margin-top: -38rem;
+}
+
+.div2 {
+  margin-top: 0rem;
+  transition: all 1s;
+}
+
+.div2Extended {
+  margin-top: -38rem;
+}
+
+.div1 {
+  margin-top: 0rem;
+  transition: all 1s;
+}
+
+.div1Extended {
+  margin-top: -40rem;
+}
+
+.marginClass {
+  margin-top: -3rem;
+}
+
+.dotSVG {
+  color: rgb(235, 74, 10);
+  margin-left: -13rem;
+}
+
+.alignmentClass {
+  margin-top: 36rem;
+  position: absolute;
+}
+
+.cornerText {
+  font-size: 13px;
+  margin-top: -1rem;
+  margin-left: 0.7rem;
+}
+
+.bindingClass {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.bindingClassExtended {
+  opacity: 1;
+}
+
+.instagramIcon {
+  float: right;
+  width: 0rem;
+  height: 0rem;
+  transition: all 1s;
+  transform: rotate(270deg);
+  margin-right: -3rem;
+}
+
+.instagramIconExtended {
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(0deg);
+}
+
+.youtubeIcon {
+  float: right;
+  width: 0rem;
+  height: 0rem;
+  transition: all 1s;
+  transform: rotate(270deg);
+}
+
+.youtubeIconExtended {
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(0deg);
+}
+
+.facebookSVG {
+  float: right;
+  width: 0rem;
+  height: 0rem;
+  transition: all 1s;
+  transform: rotate(270deg);
+  margin-right: 3rem;
+}
+
+.facebookSVGExtended {
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(0deg);
+}
+
+.cornerText2 {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.cornerText2Extended {
+  opacity: 1;
+}
