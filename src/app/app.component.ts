@@ -14,6 +14,11 @@ export class AppComponent implements OnInit {
   whiteArrow = false;
   orangeArrow = false;
   showMainText = false;
+  showThirdPage = false;
+  div1 = false;
+  div2 = false;
+  div3 = false;
+  div4 = false;
   ngOnInit(): void {
     setTimeout(() => {
       let elem = document.getElementsByClassName('pillClass1')[0];
@@ -118,10 +123,15 @@ export class AppComponent implements OnInit {
     }, 5000);
 
     setTimeout(() => {
-      this.showMainText = true;
+      this.showMainText = true; 
+      this.div1 = true;
+      this.div2 = true;
+      this.div3 = true;
+      this.div4 = true;
     }, 5500);
 
     setTimeout(() => {
+
       let elem29 = document.getElementsByClassName('mainTextClass')[0];
       elem29.classList.add('mainTextClass2');
 
@@ -136,6 +146,7 @@ export class AppComponent implements OnInit {
 
       let elem44 = document.getElementsByClassName('imageClass4')[0];
       elem44.classList.add('imageClass4Extended');
+
     }, 5600);
 
     setTimeout(() => {
@@ -228,6 +239,9 @@ export class AppComponent implements OnInit {
     setTimeout(() => {
       let elem56 = document.getElementsByClassName('div4')[0];
       elem56.classList.add('div4Extended');
+      
+      let marginClass = document.getElementsByClassName('alignmentClass')[0];
+      marginClass.classList.add('alignmentClassExtendTo30');
     }, 10000);
 
     setTimeout(() => {
@@ -244,5 +258,28 @@ export class AppComponent implements OnInit {
       let elem59 = document.getElementsByClassName('div1')[0];
       elem59.classList.add('div1Extended');
     }, 16000);
-  }
+
+  //   setTimeout(() => {
+  //     let elem60 = document.getElementsByClassName('mainTextClass2')[0];
+  //     elem60.classList.add('mainTextClassExtended'); 
+
+  //     let elem61 = document.getElementsByClassName('alignmentClass')[0];
+  //     elem61.classList.add('alignmentClassExtended'); 
+
+  //     this.showThirdPage = true;
+  //   }, 18000)
+
+  //   setTimeout(() => {
+  //     let elem62 = document.getElementsByClassName('thirdPageHeading1')[0];
+  //     elem62.classList.add('thirdPageHeading1Extended');  
+  //   }, 18001)
+
+  //   setTimeout(()=> {
+  //     let elem63 = document.getElementsByClassName('smallCircle')[0];
+  //     elem63.classList.add('smallCircleExtended'); 
+      
+  //     let elem64 = document.getElementsByClassName('halfCircle')[0];
+  //     elem64.classList.add('halfCircleExtended'); 
+  //   }, 18500)
+   }
 }

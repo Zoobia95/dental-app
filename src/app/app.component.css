@@ -1,12 +1,15 @@
 .main-div {
   background-color: #fbeecb;
-  height: 40rem;
+  height: 38rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  width: 80rem;
+  margin-left: 2rem;
 }
 
 .main-div-Extended {
   background-color: white;
+  height: 38rem;
 }
 
 .elementToFadeIn {
@@ -59,8 +62,8 @@
 .whiteArrow {
   opacity: 1;
   fill: white;
-  margin-top: -42%;
-  margin-left: 44%;
+  margin-top: -49%;
+  margin-left: 48%;
   transition-duration: 2s;
   transition-property: transform;
 }
@@ -115,20 +118,20 @@
 .pillClass1 {
   background-color: rgb(235, 74, 10);
   height: 4rem;
-  width: 100%;
-  margin-left: 15%;
+  width: 12rem;
+  margin-left: 2rem;
   transition: all 1s;
 }
 
 .pillClass1Extended {
-  width: 30%;
+  width: 4rem;
   margin-left: 5rem;
   transition: all 1s;
 }
 
 .pillClass1Extended2 {
   margin-top: 22%;
-  height: 56%;
+  height: 4rem;
   transition: all 1s;
 }
 
@@ -156,22 +159,22 @@
 .pillClass2 {
   background-color: rgb(255, 255, 255);
   height: 4rem;
-  width: 100%;
-  margin-left: 42%;
+  width: 15rem;
+  margin-left: 48%;
   margin-top: 1rem;
   color: rgb(235, 74, 10);
   opacity: 1;
-  transition: all 1s;
+  transition: all;
 }
 
 .pillClass2Extended {
-  width: 25%;
+  width: 4rem;
   margin-left: 75%;
   transition: all 1s;
 }
 
 .pillClass2Extended2 {
-  margin-top: -25%;
+  margin-top: -5.4rem;
   transition: all 1s;
 }
 
@@ -197,11 +200,12 @@
 }
 
 .circleClass1 {
+  position: relative;
   background-color: rgb(235, 74, 10);
-  margin-top: 18%;
-  margin-left: 97%;
+  margin-top: 1rem;
+  margin-left: 6.8rem;
   height: 4rem;
-  width: 68%;
+  width: 4rem;
   transition: all 1s;
 }
 
@@ -211,7 +215,7 @@
 }
 
 .circleClass1Extended2 {
-  margin-top: -65%;
+  margin-top: -5.2rem;
   transition: all 1s;
 }
 
@@ -227,7 +231,7 @@
 
 .logoName {
   vertical-align: inherit;
-  margin-left: 11.5rem;
+  margin-left: 9.5rem;
   color: rgb(235, 74, 10);
   font-size: 25px;
   font-weight: 600;
@@ -251,18 +255,19 @@
 }
 
 .mainTextClass {
-  font-size: 10rem;
+  font-size: 7rem;
   text-align: center;
-  margin-top: 35%;
+  margin-top: 12rem;
+  opacity: 0;
 }
 
 .mainTextClass2 {
-  transition: all 1s;
-  margin-top: 18%;
+  transition: all 2s;
+  opacity: 1;
 }
 
 .imageClass1 {
-  margin-top: -20%;
+  margin-top: -27%;
   height: 24rem;
   border-radius: 7%;
   margin-left: 39%;
@@ -272,7 +277,6 @@
 }
 
 .imageClass1Extended {
-  margin-top: -27%;
   opacity: 1;
   transform: rotate(-25deg);
 }
@@ -331,7 +335,7 @@
 }
 
 .imageClass2 {
-  margin-top: -20%;
+  margin-top: -40%;
   height: 24rem;
   border-radius: 7%;
   margin-left: 39%;
@@ -341,7 +345,6 @@
 }
 
 .imageClass2Extended {
-  margin-top: -40%;
   opacity: 1;
   transform: rotate(-18deg);
 }
@@ -401,7 +404,7 @@
 }
 
 .imageClass3 {
-  margin-top: -20%;
+  margin-top: -46%;
   height: 24rem;
   border-radius: 7%;
   margin-left: 40%;
@@ -411,7 +414,6 @@
 }
 
 .imageClass3Extended {
-  margin-top: -46%;
   opacity: 1;
   transform: rotate(-11deg);
 }
@@ -470,8 +472,8 @@
   opacity: 1;
 }
 
-.imageClass4 {
-  margin-top: -20%;
+.imageClass4 {  
+  margin-top: -52%;
   height: 24rem;
   border-radius: 7%;
   margin-left: 40%;
@@ -481,7 +483,6 @@
 }
 
 .imageClass4Extended {
-  margin-top: -52%;
   opacity: 1;
   transform: rotate(-4deg);
 }
@@ -556,7 +557,7 @@
   width: 2.3rem;
   height: 2.3rem;
   border-radius: 50%;
-  margin-left: -0.6rem;
+  margin-left: -0.2rem;
   margin-top: 1rem;
   transition: all 2s;
   opacity: 0;
@@ -610,14 +611,14 @@
 
 .textLogo2 {
   width: 100%;
-  margin-left: 7.5rem;
+  margin-left: 7.8rem;
   opacity: 1;
 }
 
 .logInButton {
   float: right;
   margin-top: 1rem;
-  margin-right: -3rem;
+  margin-right: -2.5rem;
   border-radius: 3rem;
   opacity: 0;
   transition: all 2s;
@@ -685,12 +686,16 @@
 
 .dotSVG {
   color: rgb(235, 74, 10);
-  margin-left: -13rem;
+  margin-left: 0.5rem
 }
 
-.alignmentClass {
-  margin-top: 36rem;
-  position: absolute;
+/* .alignmentClass {
+  margin-top: 0rem;
+  transition: all 2s;
+} */
+
+.alignmentClassExtendTo30 {
+  margin-top: 30rem;
 }
 
 .cornerText {
@@ -714,7 +719,7 @@
   height: 0rem;
   transition: all 1s;
   transform: rotate(270deg);
-  margin-right: -3rem;
+  margin-right: -10rem;
 }
 
 .instagramIconExtended {
@@ -729,6 +734,7 @@
   height: 0rem;
   transition: all 1s;
   transform: rotate(270deg);
+  margin-right: -8rem;
 }
 
 .youtubeIconExtended {
@@ -743,7 +749,7 @@
   height: 0rem;
   transition: all 1s;
   transform: rotate(270deg);
-  margin-right: 3rem;
+  margin-right: -6rem;
 }
 
 .facebookSVGExtended {
@@ -756,11 +762,103 @@
   font-size: 13px;
   text-align: center;
   margin-top: 0.5rem;
-  margin-left: 0.5rem;
+  margin-left: 7.8rem;
   opacity: 0;
   transition: all 1s;
 }
 
 .cornerText2Extended {
   opacity: 1;
+}
+
+.mainTextClassExtended {
+  margin-top: -100%;
+}
+
+.alignmentClassExtended {
+  margin-top: -100%;
+}
+
+.thirdPageHeading1 {
+  margin-top: 50rem;
+  font-size: 5.5rem;
+  margin-left: 17rem;
+  transition: all 2s;
+}
+
+.thirdPageHeading1Extended {
+  margin-top: 1rem;
+}
+
+.thirdPageHeading2 {
+  font-size: 5.5rem;
+}
+
+.thirdPageHeading3 {
+  font-size: 5.5rem;
+  margin-left: 16rem;
+}
+
+/* .alignmentClass {
+  margin-top: 0rem;
+} */
+
+.smallCircle {
+  background-color: rgb(235, 74, 10);
+  height: 6rem;
+  border-radius: 50%;
+  width: 6rem;
+  margin-left: 2rem;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.smallCircleExtended {
+  opacity: 1;
+}
+
+.smallCircleText {
+  text-align: center;
+  color: white;
+  margin-top: 1.5rem;
+  font-size: medium;
+  font-weight: 500;
+  position: absolute;
+  width: 0rem;
+  margin-left: 2.1rem;
+}
+
+.smallCircleText2 {
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  font-size: medium;
+  font-weight: 500;
+  position: absolute;
+  width: 0rem;
+  margin-left: 1.3rem;
+}
+
+.halfCircle {
+  border: 1px solid red;
+  margin-left: 1.5rem;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  margin-top: -6rem;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  margin-top: -6.5rem;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.halfCircleExtended {
+  opacity: 1;
+}
+
+.bindingClass3 {
+  margin-top: 3rem;
+  margin-left: 8rem;
 }
